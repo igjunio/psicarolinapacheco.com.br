@@ -1663,6 +1663,11 @@ section,
   margin-right: 0.5rem;
 }
 
+.blog-details .content img {
+  border-radius: 20px;
+  margin: 20px 0 20px 0;
+}
+
 .blog-details .meta-top {
   margin-top: 20px;
   color: var(--secondary-color);
