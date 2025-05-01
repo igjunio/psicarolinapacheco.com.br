@@ -748,6 +748,12 @@ section,
   font-size: 16px;
 }
 
+.why-us ul li {
+  color: var(--text-color);
+  font-family: 'Raleway-Medium';
+  font-size: 16px;
+}
+
 .why-us .swiper {
   margin: 140px 140px 120px 140px;
   overflow: hidden;
@@ -787,6 +793,7 @@ section,
 @media (max-width: 1200px) {
   .why-us .img-bg video {
     border-radius: 0;
+    object-fit: contain;
   }
 
   .why-us .swiper {
@@ -845,13 +852,32 @@ section,
   padding: 30px;
 }
 
+.featured-services .card .card-title {
+  border-left: 3px solid var(--accent-color);
+}
+
+.featured-services .card .card-body h2 {
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+  font-family: 'Raleway-Black';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .featured-services .card .card-body h3 {
   color: var(--primary-color);
   font-family: 'Raleway-Bold';
-  font-size: 20px;
+  font-size: 16px;
+  align-content: center;
   margin-bottom: 0px;
   padding-left: 10px;
-  border-left: 3px solid var(--accent-color);
 }
 
 .featured-services .card .card-body .card-content {
@@ -865,7 +891,7 @@ section,
 .featured-services .card .card-body .card-content p {
   color: var(--primary-color);
   font-family: 'Raleway-Regular';
-  font-size: 15px;
+  font-size: 14px;
   padding-top: 10px;
   margin-bottom: 0;
   overflow: hidden;
@@ -1103,31 +1129,16 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-size: 2rem;
-  font-weight: 700;
+  color: var(--secondary-color);
+  font-family: 'Raleway-Bold';
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
 .about .content p {
-  margin: 30px 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding: 0 0 15px 0;
-  font-weight: 400;
-  display: flex;
-}
-
-.about .content ul i {
-  color: var(--accent-color);
-  font-size: 1.25rem;
-  line-height: 1.2;
-  margin-right: 0.5rem;
+  color: var(--text-color);
+  font-family: 'Raleway-Regular';
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
